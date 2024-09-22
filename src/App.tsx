@@ -4,7 +4,7 @@ import Alert from './components/Alert'
 const App = () => {
   return (
     <div><Alert>
-           <h1>Hi Mom, I'm A software engineer!</h1> 
+           <h1 className='alert alert-info'>Hi Mom, I'm A software engineer!</h1> 
         </Alert>
       </div>
   )
