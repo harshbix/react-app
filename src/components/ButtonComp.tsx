@@ -6,7 +6,7 @@ interface Props
 }
 const ButtonComp = ({children} : Props) => {
   return (
-    <div>{children}</div>
+    <div className="text-center">{children}</div>
   )
 }
 
