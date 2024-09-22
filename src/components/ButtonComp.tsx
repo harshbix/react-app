@@ -2,7 +2,7 @@ import { ReactNode } from "react"
 
 interface Props
 {
-    children:ReactNode
+    children:ReactNode;
 }
 const ButtonComp = ({children} : Props) => {
   return (
