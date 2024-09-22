@@ -1,14 +1,13 @@
-import ListGroup from './components/ListGroup'
-function App()
-{
-  let items = ["Uyole", "Posta", "Utukuyu", "Kati"];
-  const handleSelectItem = (item: string) => 
-  {
-    console.log(item);
-  }
-  return <div>
-    <ListGroup items={items} heading="Cities" onSelectItem={handleSelectItem}/>
-  </div>
+import Alert from './components/Alert'
+
+
+const App = () => {
+  return (
+    <div><Alert>
+           <h1>Hi Mom, I'm A software engineer!</h1> 
+        </Alert>
+      </div>
+  )
 }
 
-export default App;
+export default App
