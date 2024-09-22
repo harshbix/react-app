@@ -1,12 +1,11 @@
-import Alert from './components/Alert'
-
+import ButtonComp from './components/ButtonComp'
 
 const App = () => {
   return (
-    <div><Alert>
-           <h1 className='alert alert-info'>Hi Mom, I'm A software engineer!</h1> 
-        </Alert>
-      </div>
+    <div>
+      <ButtonComp>
+        <button type="button" className='btn btn-primary'>Click Me!</button>
+      </ButtonComp></div>
   )
 }
 
